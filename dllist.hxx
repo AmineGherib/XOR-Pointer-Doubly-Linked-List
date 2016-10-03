@@ -658,9 +658,6 @@ inline auto crbegin(dllist<T> const& a)
 {
     return a.crbegin();
 }
-
-// The next function is provided for you. It simply invokes the class
-// member function...
     template <typename T>
 inline auto end(dllist<T>& a)
 {
